@@ -92,7 +92,7 @@ function moveTouch(e) {
         log("swiped up")
         } else {
         // swiped down
-        var swipedDown = new CustomEvent("swipe", {detail: {direction: SwipeType.Down}});
+        var swipedDown = new CustomEvent("swipe", {detail: {direction: SwipeType.DOWN}});
         log("swiped down")
         e.target.dispatchEvent(swipedDown);
         }  
